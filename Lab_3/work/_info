@@ -1,0 +1,357 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/intelFPGA/21.1
+T_opt
+!s110 1651043286
+VfXBTD@CFWj7iMAU`Q2i8D2
+04 11 8 work testreg_vhd behavior 1
+=2-9828a60b0902-6268ebd6-156-6990
+!s124 OEM10U72 
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+R1
+Eadder_subtracter
+Z2 w1651043151
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 29
+Z8 dC:/Users/rajas/Desktop/Programs/Microprocessor Design/ECEGR2022/Lab_3
+Z9 8C:/Users/rajas/Desktop/Programs/Microprocessor Design/ECEGR2022/Lab_3/registers.vhd
+Z10 FC:/Users/rajas/Desktop/Programs/Microprocessor Design/ECEGR2022/Lab_3/registers.vhd
+l0
+L137 1
+VWEY3l]S[]hd:bnR__Nf?A3
+!s100 zKl]o>zzDT4gab2=VzZO81
+Z11 OL;C;2021.2;73
+32
+Z12 !s110 1651098952
+!i10b 1
+Z13 !s108 1651098952.000000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/rajas/Desktop/Programs/Microprocessor Design/ECEGR2022/Lab_3/registers.vhd|
+Z15 !s107 C:/Users/rajas/Desktop/Programs/Microprocessor Design/ECEGR2022/Lab_3/registers.vhd|
+!i113 0
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1 CvgOpt 0
+Acalc
+R3
+R4
+R5
+R6
+R7
+Z18 DEx4 work 16 adder_subtracter 0 22 WEY3l]S[]hd:bnR__Nf?A3
+!i122 29
+l156
+Z19 L145 26
+Z20 VLh1fk09V9F@o7A[<mPX[`0
+Z21 !s100 >;dmP4V?We9SiIODC65=J3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Ebitstorage
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 29
+R8
+R9
+R10
+l0
+Z22 L12 1
+VdCGWj`@VbHgV172Jg^EQX1
+!s100 WJnIlGlmDL72kEaZWY7LI2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Amemlike
+R3
+R4
+R5
+R6
+R7
+Z23 DEx4 work 10 bitstorage 0 22 dCGWj`@VbHgV172Jg^EQX1
+!i122 29
+l21
+Z24 L19 13
+Z25 V<KY=mN>W^6@>cW`V]6Y^Y2
+Z26 !s100 >C<lEnBjkno6BlaBg7zNz3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Efulladder
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 29
+R8
+R9
+R10
+l0
+L39 1
+V=FPW_d1N0HAmBXP_4FHUj0
+!s100 MPWGQOD3M^:9b24Oc4LP:1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Aaddlike
+R3
+R4
+R5
+R6
+R7
+Z27 DEx4 work 9 fulladder 0 22 =FPW_d1N0HAmBXP_4FHUj0
+!i122 29
+l49
+Z28 L48 5
+Z29 VYAZhA1hLlNW^KgldE^3f01
+Z30 !s100 <Eni[?PWcgZ?5R]=[zAgg3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Eregister32
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 29
+R8
+R9
+R10
+l0
+L88 1
+V6GMI`hFSmXXNbm[JFmCDh2
+!s100 FR1fkTU;i_IbYWGlfnd:02
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Abiggermem
+R3
+R4
+R5
+R6
+R7
+Z31 DEx4 work 10 register32 0 22 6GMI`hFSmXXNbm[JFmCDh2
+!i122 29
+l108
+Z32 L95 35
+Z33 VYJ5^_0]ZKiR9dKWc[RdU<2
+Z34 !s100 ZAF5;IHbO5ehnHZl;I6983
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Eregister8
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 29
+R8
+R9
+R10
+l0
+L61 1
+VCmLjgjT4F;9OEK[DbRco72
+!s100 DGz4Yz>el_lHHIC:Ik3m10
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Amemmy
+R3
+R4
+R5
+R6
+R7
+Z35 DEx4 work 9 register8 0 22 CmLjgjT4F;9OEK[DbRco72
+!i122 29
+l75
+Z36 L68 13
+Z37 V>C^R4N]?=Cfb<L^Zhg0bY1
+Z38 !s100 C4J;_o4A_Tj?=VBGj`^T`0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Eshift_register
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 29
+R8
+R9
+R10
+l0
+L178 1
+V7_`6M>AQT3MQ9ekl`oeEC3
+!s100 YV0OGoMh`^4^8I]UXP5na1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Ashifter
+R3
+R4
+R5
+R6
+R7
+Z39 DEx4 work 14 shift_register 0 22 7_`6M>AQT3MQ9ekl`oeEC3
+!i122 29
+l187
+Z40 L185 13
+Z41 V1aOGVZ56BKV^`:8WVlV4H2
+Z42 !s100 FGd;PckB_c13cmj<VaR012
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Etestreg_vhd
+Z43 w1651030558
+R5
+R3
+R4
+R6
+R7
+!i122 28
+R8
+Z44 8C:/Users/rajas/Desktop/Programs/Microprocessor Design/ECEGR2022/Lab_3/tregisterswclues.vhd
+Z45 FC:/Users/rajas/Desktop/Programs/Microprocessor Design/ECEGR2022/Lab_3/tregisterswclues.vhd
+l0
+R22
+ViXoQXl2a;kM[chQ:j@fB?1
+!s100 [FQ?dzLOmOKmXoOC5VXHN0
+R11
+32
+Z46 !s110 1651043241
+!i10b 1
+Z47 !s108 1651043241.000000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/rajas/Desktop/Programs/Microprocessor Design/ECEGR2022/Lab_3/tregisterswclues.vhd|
+Z49 !s107 C:/Users/rajas/Desktop/Programs/Microprocessor Design/ECEGR2022/Lab_3/tregisterswclues.vhd|
+!i113 0
+R16
+R17
+Abehavior
+R5
+R3
+R4
+R6
+R7
+DEx4 work 11 testreg_vhd 0 22 iXoQXl2a;kM[chQ:j@fB?1
+!i122 28
+l59
+L15 151
+VkbOe39?Vb]5;FNY]5>AO41
+!s100 zdoKYizBG:HDl<[>DIJn_0
+R11
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 0
+R16
+R17

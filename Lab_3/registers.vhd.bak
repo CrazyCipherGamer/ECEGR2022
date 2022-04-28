@@ -185,15 +185,7 @@ end entity shift_register;
 architecture shifter of shift_register is
 	
 begin
-	with dir & shamt(1 downto 0) select
-		dataout <= datain when "000",
-			   datain when "100",
-			   datain(30 downto 0) & '0' when "001",
-                           datain(29 downto 0) & "00" when "010",
-			   datain(28 downto 0) & "000" when "011",
-			   '0' & datain(31 downto 1) when "101",
-			   "00" & datain(31 downto 2) when "110",
-			   "000" & datain(31 downto 3) when others;
+	
 end architecture shifter;
 
 
