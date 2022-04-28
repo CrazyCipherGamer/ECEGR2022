@@ -1,1 +1,24 @@
-# Compile of registers.vhd was successful with warnings.
+vsim -voptargs=+acc work.testreg_vhd
+# vsim -voptargs="+acc" work.testreg_vhd 
+# Start time: 21:52:24 on Apr 27,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testreg_vhd(behavior)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.register32(biggermem)#1
+# Loading work.register8(memmy)#1
+# Loading work.bitstorage(memlike)#1
+# Loading work.shift_register(shifter)#1
+add wave -position insertpoint sim:/testreg_vhd/*
+run
+run
+run
+run
+# End time: 22:32:14 on Apr 27,2022, Elapsed time: 0:39:50
+# Errors: 0, Warnings: 1
