@@ -1,0 +1,183 @@
+# Compile of ALU.vhd was successful.
+# Compile of tALU.vhd was successful.
+# Compile of registers.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+vsim work.testalu_vhd
+# vsim work.testalu_vhd 
+# Start time: 14:26:49 on May 14,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+add wave -position insertpoint sim:/testalu_vhd/uut/*
+# ** UI-Msg: (vish-4014) No objects found matching '/testalu_vhd/uut/*'.
+quit -sim
+# End time: 14:27:38 on May 14,2022, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 2
+vsim -voptargs=+acc work.testalu_vhd
+# vsim -voptargs="+acc" work.testalu_vhd 
+# Start time: 14:27:46 on May 14,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.shift_register(shifter)#1
+add wave -position insertpoint sim:/testalu_vhd/*
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ALU.vhd was successful.
+# Compile of tALU.vhd was successful.
+# Compile of registers.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.shift_register(shifter)#1
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ALU.vhd was successful.
+# Compile of tALU.vhd was successful.
+# Compile of registers.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.shift_register(shifter)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ALU.vhd was successful.
+# Compile of tALU.vhd was successful.
+# Compile of registers.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.shift_register(shifter)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of ALU.vhd was successful.
+# Compile of tALU.vhd was successful.
+# Compile of registers.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.shift_register(shifter)#1
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Causality operation skipped due to absence of debug database file
+# Compile of ALU.vhd was successful.
+# Compile of tALU.vhd was successful.
+# Compile of registers.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testalu_vhd(behavior)#1
+# Loading work.alu(alu_arch)#1
+# Loading work.adder_subtracter(calc)#1
+# Loading work.fulladder(addlike)#1
+# Loading work.shift_register(shifter)#1
+run
+run
+run
+run
+run
+run -all

@@ -97,7 +97,7 @@ BEGIN
 		control <= "10100";		--srli test
 		wait for 100 ns;
 
-		control <= "11111";		--Pass through
+		control <= "01111";		--Pass through
 		wait for 100 ns;			--result = 0x00000002
 
 
