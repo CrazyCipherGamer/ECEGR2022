@@ -124,7 +124,6 @@ begin
 			     regData(5) WHEN "01111",
 			     regData(6) WHEN "10000",
                              regData(7) WHEN "10001",
-			     (OTHERS => '0') WHEN "00000",
 			     (OThers => 'Z') WHEN OTHERS;
     
 
