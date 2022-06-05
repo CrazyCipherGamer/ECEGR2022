@@ -58,7 +58,7 @@ begin
 		"10100" WHEN opcode = "0010011" AND funct3 = "101" ELSE					--SRLI
 		"00110" WHEN opcode = "1100011" AND (funct3 = "000" OR funct3 = "001") ELSE		--BEQ or BNE	(Subraction allows to compare equality or lack therefore)
 		"10010" WHEN opcode = "0000011" OR opcode = "0100011" ELSE				--LW/SW		(Addition calculates effective address for getting data)
-		"11111" WHEN opcode = "0110111" ELSE							--LUI
+		"10010" WHEN opcode = "0110111" ELSE							--LUI
 		"01111";										--Pass Through otherwise
 	ALUCtrl <= intermediateALUCtrl;
 

@@ -116,7 +116,7 @@ begin
 	RegFile: Registers PORT MAP(ReadReg1, ReadReg2, DestReg, WriteData, RegWrite, ALUInA, RegFileOutB);
 	ALUInputMux: BusMux2to1 PORT MAP(ALUSrc, RegFileOutB, ImmGenOut, ALUInB);
 	MainALU: ALU PORT MAP(ALUInA, ALUInB, ALUCtrl, Zero, ALUResult);
-	DMEM: RAM PORT MAP(reset, clock, MemRead, MemWrite, OffsetDataAddress(31 downto 2), RegFileOutB, DataMemOut);
+	DMEM: RAM PORT MAP(reset, clock, MemRead, MemWrite, ALUResult(31 downto 2), RegFileOutB, DataMemOut);
 	ALUOutMux: BusMux2to1 PORT MAP(MemToReg, ALUResult, DataMemOut, WriteData);
 
 	DataOffset: adder_subtracter PORT MAP(ALUResult, x"10000000", '1', OffsetDataAddress, DataOffset_co);

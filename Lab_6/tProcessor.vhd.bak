@@ -35,7 +35,7 @@ BEGIN
 	BEGIN
 
 		-- Wait 100 ns for global reset to finish
-		wait for 100 ns;
+		wait for 50 ns;
 
 		-- Reset the processor
 		reset <= '1';
